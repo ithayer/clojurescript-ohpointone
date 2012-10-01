@@ -1,24 +1,24 @@
-The most minimal ClojureScript program. 
+I'm the most minimal ClojureScript program. 
 
-Run me (this has been shown to work at least with Leiningen version Leiningen 1.7.1 on Java 1.7.0_05 Java HotSpot(TM) Client VM)
+Run me (I have been shown to work at least with Leiningen 1.7.1)
 
-;; Install dependencies.
+;; Install my dependencies.
 
 lein deps 
 
-;; Build the ClojureScript.
+;; Build my ClojureScript.
 
 lein cljsbuild once
 
-;; Start the webserver on port 8888.
+;; Start me listening on port 8888.
 
 lein run
 
-;; View page
+;; View my one static page.
 
 http://localhost:8888/index.html
 
-
+;; Click the button, if all is well, I should show you a popup.
 
 
 Extend me!
